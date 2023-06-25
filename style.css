@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/********************** Header ********************************/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1283px;
+    height: 119px;
+}
+
+nav .nav_left img {
+    width: 186px;
+    height: 58px;
+    object-fit: cover;
+}
+
+.nav_middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 388px;
+    height: 47px;
+    position: relative;
+    gap: 10px;
+}
+
+.nav_middle ul {
+    list-style: none;
+}
+
+.nav_middle ul a {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.nav_right button {
+    padding: 17px 50px;
+    background: transparent;
+    color: #fff;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border: 1px solid #FFFFFF;
+    border-radius: 39px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+    
+}
+
+/***************************************************** Main **************************************************************/
+
+/******************************** Section Content ************************************/
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px;
+    gap: 61px;
+    width: 905px;
+    height: 1150px;
+    position: relative;
+    left: 225px;
+}
+
+.text_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 7px;
+    width: 651px;
+    height: 198px;
+}
+
+.text_content h1 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.text_content p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #E5E5E5;
+    position: relative;
+    top: 25px;
+}
+
+.content_btn {
+    position: relative;
+    display: flex;
+    top: 35px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content_btn button {
+    padding: 18px 55px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15); */
+    border-radius: 39px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #112D57;
+}
+
+.section_content img {
+    position: relative;
+    top: 30px;
+}
+
+
+@media screen and (max-width:720px) {
+    
+}
+
+
+/******************************************** Section Feature-2 **********************************/
+
+.section_feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 199px;
+    gap: 3px;
+    height: 650px;
+    background: #FFFFFF;
+}
+
+.section_feature h2 {
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.content_cards {
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    height: 615px;
+}
+
+.content_cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 50px;
+    gap: 10px;
+    width: 380px;
+    height: 350px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.content_cards .card:hover {
+    scale: 1.1;
+}
+
+.card img {
+    position: relative;
+    top: -5px;
+}
+
+.card h5 {
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.card p {
+    position: relative;
+    top: 13px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+.card a {
+    position: relative;
+    top: 25px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #03D6F3;
+}
+
+.content_cards .react {
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.content_cards .react h5 {
+    color: #FFFFFF;
+}
+
+.content_cards .react p {
+    color: #FFFFFF;
+}
+
+.content_cards .react a {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:720px) {
+    
+}
+
+
+/******************************** Content 3 ******************************/
+
+.section_content_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 20px;
+    gap: 10px;
+    height: 706px;
+    background: #FFFFFF;
+}
+
+.content_3 {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    height: 506px;
+}
+
+.content__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 505px;
+    height: 317px;
+    padding: 15px 13px;
+    gap: 40px;
+}
+
+.content__left h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.content__left p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+.content__left>div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 22px;
+}
+
+.content__left>div button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    background: #03D6F3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    
+}
+
+
+/****************************** Section CTA ************************/
+
+.section_cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 63px 0px;
+    height: 691px;
+    background: #FFFFFF;
+}
+
+.content_cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 67px;
+    height: 565px;
+}
+
+.cta__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 44px;
+    padding: 15px;
+    gap: 30px;
+    width: 380px;
+    height: 410px;
+}
+
+.cta__left h2 {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.cta__left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+.cta__left>div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 22px;
+}
+
+.cta__left>div button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    background: #03D6F3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+
+hr {
+    border: 1px solid #CDCDCD;
+}
+
+@media screen and (max-width:720px) {
+    
+}
+
+
+/***************************** Section CTA 2 *******************/
+
+.section_cta__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 199px;
+    gap: 10px;
+    height: 366px;
+    background: #FFFFFF;
+}
+
+.content__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 45px;
+    width: 100%;
+    height: 565px;
+}
+
+.cta_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cta_text h2 {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.cta_text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+.sub__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 471px;
+    height: 52px;
+}
+
+.sub__input>input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 10px;
+    width: 284px;
+    height: 52px;
+    background: #EFEFEF;
+    border: 1px solid #D0D0D0;
+    border-radius: 6px;
+    font-size: 18px;
+    outline: none;
+}
+
+.sub__input>button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 45px;
+    background: #03D6F3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+
+/* Footer  */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 86px;
+    gap: 10px;
+    height: 371px;
+    background: #112D57;
+}
+
+.footer {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 87px;
+    height: 247px;
+}
+
+.footer_left {
+    position: relative;
+    right: 106px;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+
+    width: 317px;
+    height: 215px;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 75px;
+}
+
+.footer__left ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footer___left p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 311px;
+    height: 194.99px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 311px;
+    height: 47px;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 24px;
+    width: 170.96px;
+    height: 80.99px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*********************** Media Quary **************************/
+
+/* 1080px */
+@media screen and (max-width:1024px) {
+    nav {
+        width: 100%;
+        height: 119px;
+    }
+    .section_content{
+        width: 550px;
+        height: 1150px;
+        position: relative;
+        gap: 45px;
+    }
+    .section_content img {
+        width: 700px;
+    }
+    .section_feature {
+        height: 700px;
+    }
+
+    .section_feature h2 {
+        top: 5px;
+    }
+
+    .content_cards {
+        width: 730px;
+        right: 84px;
+    }
+
+    .content_cards .card {
+        width: 300px;
+        height: 380px;
+    }
+    .card .react {
+        width: 100%;
+    }
+    .card img {
+        position: relative;
+        top: -5px;
+    }
+    .content_cards .react p {
+        font-size: 10px;
+    }
+    .section_content_3 {
+        height: 700px;
+    }
+    .content_3 {
+        width: 95%;
+        height: 500px;
+    }
+    .content__left button {
+        width: 160px;
+    }
+    .button_layout_2 {
+        text-align: center;
+    }
+    .section_cta {
+        width: 100%;
+        height: 700px;
+    }
+    .cta__right img {
+        width: 500px;
+    }
+}
